@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 2) CONFIG: set this once and both Buy buttons will use it
   // DexScreener example: https://dexscreener.com/solana/<PAIR_OR_TOKEN>
   // Raydium swap example: https://raydium.io/swap/?input=SOL&output=<CA>
-  const DEX_URL = ""; // <-- paste your live DexScreener (or Raydium) URL here when ready
+  const DEX_URL = "https://dexscreener.com/solana/CUUfEvBGxErM9fUYVQn2GnrHPhzK3yJC4MyYTXjwE9JP"; // <-- paste your live DexScreener (or Raydium) URL here when ready
 
   // Wire all Buy buttons
   const buyLinks = $$(".js-buy");
